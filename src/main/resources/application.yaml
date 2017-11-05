@@ -1,0 +1,14 @@
+#配置tomcat相关server:
+server:
+  port: 9090 #端口号
+  contextPath: /helloboot #地址前缀
+
+#给AuthorSettings赋默认值
+author:
+  name: "张三"
+  age: 18
+
+#日志配置
+logging:
+  file: log/log.log #默认相对地址，不需要加classpath，会在项目的根目录下创建log/log.log文件
+  level: debug
