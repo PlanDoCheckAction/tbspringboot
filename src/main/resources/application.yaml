@@ -1,7 +1,7 @@
 #配置tomcat相关server:
-server:
-  port: 9090 #端口号
-  contextPath: /helloboot #地址前缀
+#server:
+#  port: 9090 #端口号
+#  contextPath: /helloboot #地址前缀
 
 #给AuthorSettings赋默认值
 author:
